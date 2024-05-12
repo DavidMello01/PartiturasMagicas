@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Partituras Magicas</title>
+<link rel="stylesheet" href="styles.css">
+<script src="script.js"></script>
+</head>
+
+<body>
+<div class="hub">
+    <h1>Partituras Mágicas</h1>
+    <div class="band-cards">
+        <audio id="metallicaAudio" preload="auto">
+            <source src="https://www.youtube.com/watch?v=dzssbzIsmqU" type="audio/mp4">
+        </audio>
+        <div class="band-card" id="Metallica" onclick="goToAlbums('Metallica')" onmouseover="playMetallicaAudio()" onmouseout="pauseMetallicaAudio()">
+            <img src="metallica.png" alt="Metallica">
+            <div id="youtubePlayer"></div>
+        </div>
+        <div class="band-card" id="ArtickM" onclick="goToAlbums('Artick Monkeys')" onmouseover="playArtickMonkeysAudio()" onmouseout="pauseArtickMonkeysAudio()">
+            <img src="AM.png" alt="Macacos do Artico">
+            <div id="youtubePlayer"></div>
+        </div>
+        <!-- Add more band cards here -->
+    </div>    
+</div>
+
+
+<script src="script.js"></script>
+</body>
+</html>
