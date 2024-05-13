@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Partitura Mágicas - Organize as músicas que você ja aprendeu a tocar</title>
+<link rel="stylesheet" href="styles.css">
+<script src="script.js"></script>
+</head>
+<!--Lembra de fazer so 1 tela e deixar tudo automatico-->
+<body>
+<div class="hub">
+    <h1>Partituras Mágicas</h1>
+    <div class="band-cards">   
+        <div class="band-card" id="Metallica"onclick="clickMettalica()" onmouseover="playMetallicaAudio()" onmouseout="pauseMetallicaAudio()">
+            <img src="Imagens Bandas/metallica.png" alt="Metallica">  
+        </div>
+
+        <div class="band-card" id="ArtickM" onclick="clickAM()"  onmouseover="playArtickMonkeysAudio()" onmouseout="pauseArtickMonkeysAudio()"> 
+            <a href="index2.html"><img src="Imagens Bandas/AM.png" alt="Macacos do Artico"></a>
+        </div>
+
+        <div class="band-card" id="ironM" onmouseover="playIronMaidenAudio()" onmouseout="pauseIronMaidenAudio()">  
+            <a href="index2.html"><img src="Imagens Bandas/iron maiden.jpg" alt="Iron Maiden"></a>
+        </div>
+
+        <div class="band-card" id="megadeth" onmouseover="playMegadethAudio()" onmouseout="pauseMegadethAudio()">         
+            <a href="index2.html"><img src="Imagens Bandas/megadeth.jpg" alt="Megadeth"></a>
+        </div>
+
+        <div class="band-card" id="RHCP"  onmouseover="playRedHotAudio()" onmouseout="pauseRedHotAudio()">   
+            <a href="index2.html"><img src="Imagens Bandas/RHCP.jpg" alt="Red Hot Chilli Peppers"></a>
+        </div>
+        
+        <div class="band-card" id="Falling in Reverse" onclick="goToAlbums('Falling in Reverse')" onmouseover="playFallingInReverseAudio()" onmouseout="pauseFallingInReverseAudio()">      
+            <a href="index2.html"><img src="Imagens Bandas/Falling.jpg" alt="Falling in Reverse"></a>
+
+        </div>
+
+        <div class="band-card" id="Polyphia" onmouseover="playPolyphiaAudio()" onmouseout="pausePolyphiaAudio()">       
+            <a href="index2.html"> <img src="Imagens Bandas/Polyphia.jpg" alt="Polyphia"></a>
+        </div>
+
+        <div class="band-card" id="Slipknot" onmouseover="playSlipknotAudio()" onmouseout="pauseSlipknotAudio()">
+            <a href="index2.html"><img src="Imagens Bandas/slip.jpg" alt="Slipknot"></a>
+        </div>
+
+        <div class="band-card" id="guns" onmouseover="playGunsAudio()" onmouseout="pauseGunsAudio()">            
+            <a href="index2.html"><img src="Imagens Bandas/guns.jpg" alt="Guns N' Roses"></a>
+        </div>
+
+        <div class="band-card" id="Kirk" onmouseover="playKirkAudio()" onmouseout="pauseKirkAudio()">    
+            <a href="index2.html"><img src="Imagens Bandas/Kirk.jpg" alt="Kirk Hammett"></a>
+        </div>
+
+        <div class="band-card" id="TLSP" onmouseover="playTLSPAudio()" onmouseout="pauseTLSPAudio()">            
+            <a href="index2.html"><img src="Imagens Bandas/TLSP.jpg" alt="The Last Shadow Puppets"></a>
+        </div>
+
+    </div>    
+</div>
+
+
+<script src="script.js"></script>
+</body>
+</html>
